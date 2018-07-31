@@ -523,7 +523,6 @@ margin-bottom: 60px;
  * ----------------------------------------------------------------------------------------
  */
 .template_feature{
-background:#008e76;
 padding-top:60px;
 padding-bottom:30px;
 }
@@ -600,7 +599,9 @@ position: relative;
 * 06.START ABOUT DETAILS DESIGN
 * ----------------------------------------------------------------------------------------
 */
-.about-details{}
+.about-details{
+    background:#008e76;
+}
 .single_about_details{}
 @media only screen and (max-width:768px) { 
 .single_about_details{padding-bottom: 60px;}
@@ -1327,8 +1328,9 @@ padding: 5px 15px;
 .post-slide .post-date{
     position:absolute;
     top:10%;
-    left:4%;
+    left:4%;a
 }
+
 .post-slide .date{
     display: inline-block;
     border-radius: 3px 0 0 3px;
@@ -2002,3 +2004,10 @@ color: #fff !important;
     left:50%;
     transform: translate(-50%,-50%);
 }
+
+.override-date {
+    position: relative!important;
+    left:auto;
+    
+}
+
