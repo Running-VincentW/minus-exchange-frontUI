@@ -2023,3 +2023,17 @@ color: #fff !important;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.fit-width {
+    width: 100%;
+    width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
+}
+
+.fit-height {
+    height: 100%;
+    height: -moz-available;
+    height: -webkit-fill-available;
+    height: fill-available;
+}
